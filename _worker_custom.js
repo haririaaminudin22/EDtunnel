@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 const listProxy = [
-    { path: '/alibaba', proxy: '8.219.148.0' },
+    { path: '/cf', proxy: '138.2.74.219' },
 ];
 let proxyIP;
 export default {
