@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 const listProxy = [
-    { path: '/cf', proxy: '138.2.74.219' },
+    { path: '/oracle', proxy: '168.138.177.109' },
 ];
 let proxyIP;
 export default {
